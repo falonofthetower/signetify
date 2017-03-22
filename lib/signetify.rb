@@ -1,4 +1,5 @@
 require "signetify/version"
+require "signet"
 
 module Signetify
   class Client
