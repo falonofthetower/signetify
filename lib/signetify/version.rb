@@ -1,3 +1,3 @@
-class Signetify
-  VERSION = "0.1.0"
+module Signetify
+  VERSION = "0.2.0"
 end

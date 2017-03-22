@@ -1,0 +1,11 @@
+client_id: <%= ENV["CLIENT_ID"] %>
+temporary_credential_uri: 'https://www.google.com/accounts/OAuthGetRequestToken'
+client_credential_key: 'anonymous'
+client_credential_secret: 'anonymous'
+authorization_uri: "https://accounts.google.com/o/oauth2/auth"
+token_credential_uri: "https://accounts.google.com/o/oauth2/token"
+auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs"
+client_secret: <%= ENV["GOOGLE_CLIENT_SECRET"] %>
+redirect_uri: <%= ENV["REDIRECT_URI"] %>
+javascript_origins: <%= ENV["JAVASCRIPT_ORIGINS"] %>
+
